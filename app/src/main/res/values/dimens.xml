@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="equation_edittext_padding">20dp</dimen>
+    <dimen name="margin_horizontal">20dp</dimen>
+    <dimen name="margin_vertical">10dp</dimen>
+    <dimen name="layout_padding_horizontal">5dp</dimen>
+    <dimen name="progress_horizontal_margin">3dp</dimen>
+    <dimen name="list_view_text_size">20sp</dimen>
+    <dimen name="list_view_margin_horizontal">30dp</dimen>
+    <dimen name="records_activity_actionbar_size">60dp</dimen>
+</resources>

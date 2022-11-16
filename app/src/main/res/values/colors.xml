@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="next_button_textcolor">#FFFF00FF</color>
+    <color name="check_button_textcolor">#FF0000FF</color>
+    <color name="timer_button_textcolor">#FFFF0000</color>
+    <color name="disabled_button_color">#FFFFFFFF</color>
+
+</resources>

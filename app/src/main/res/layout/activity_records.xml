@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.thcplusplus.mathter.RecordsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:id="@+id/lytInput"
+        >
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/layout_padding_horizontal"
+            android:paddingRight="@dimen/layout_padding_horizontal"
+            android:text="@string/record_name_label"
+            />
+
+        <EditText
+            android:id="@+id/edittext_record_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
+            android:maxLines="@integer/edittext_record_name_max_lines"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_discard"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/button_discard"/>
+
+            <Button
+                android:id="@+id/button_save"
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/button_save"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/layout_padding_horizontal"
+            android:paddingRight="@dimen/layout_padding_horizontal"
+            android:text="@string/options_label"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_sort"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_horizontal"
+                android:layout_marginRight="@dimen/margin_horizontal"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="@string/check_sorted"/>
+
+            <CheckBox
+                android:id="@+id/check_ascending"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_horizontal"
+                android:layout_marginRight="@dimen/margin_horizontal"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:text="@string/check_ascending"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lytRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/layout_padding_horizontal"
+            android:paddingRight="@dimen/layout_padding_horizontal"
+            android:text="@string/records_list_label"
+            />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_horizontal"
+            android:layout_marginRight="@dimen/margin_horizontal"
+            android:gravity="center_horizontal"></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathTer</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="alert_dialogbox_ok_button">بستن</string>
+    <string name="answer_edittext_desabled_text">آماده ای ؟!</string>
+    <string name="answer_edittext_hint">پاسخ = ؟</string>
+    <string name="number_of_operands_summary">چه تعداد عملوند در ابتدای بازی وجود داشته باشد؟</string>
+    <string name="number_of_operands_title">تعداد عملوندها در آغاز بازی</string>
+    <string name="number_of_operands_trigger_summary">بعد از این تعداد سوال، یکی به تعداد عملوندها اضافه می شود</string>
+    <string name="number_of_operands_trigger_title">مرز افزایش تعداد عملوند ها</string>
+    <string name="numberformatexception_message">رشته ی ورودی غیر مجاز می باشد!</string>
+    <string name="operators_summary">عملگر هایی که در سوالات استفاده می شود</string>
+    <string name="operators_title">عملگر های انتخابی</string>
+    <string name="timer_button_hint">برای شروع بازی، اینجا را چند لحظه لمس کنید</string>
+    <string name="title_activity_records">رکوردها</string>
+    <string name="title_activity_setting">تنظیمات</string>
+    <string name="unknown_exception_message">یک ارور ناشناخته اتفاق افتاد!</string>
+    <string name="wrong_operator">در سوال عملگر ناشناخته پیدا شد!</string>
+    <string name="button_save">ذخیره</string>
+    <string name="button_discard">لغو</string>
+    <string name="font_size_summary">اندازه متن سوال و پاسخ های بازی</string>
+    <string name="font_size_title">اندازه متن</string>
+    <string name="record_name_label">نام شما</string>
+    <string name="records_list_label">رکوردها</string>
+    <string name="times_up_msg">مهلت تمام شد!</string>
+    <string name="check_sorted">مرتب شده</string>
+    <string name="action_records">رکوردها</string>
+    <string name="options_label">تنظیمات</string>
+    <string name="check_ascending">صعودی</string>
+    <string name="next_button_text" >%1$d\t\tبعدی</string>
+    <string name="check_button_text">%1$d\t\tپاسخ</string>
+    <string name="note_this">نکته: برای متوقف کردن بازی میتوانید تایمر را چند ثانیه لمس کنید.</string>
+    <string name="action_about">درباره من</string>
+    <string name="about_me_text">\n\n\n\n\n\n\n\n\n\n\n
+        برنامه نویس | thcplusplus
+        \n\n
+        ایمیل | thcplusplus@gmail.com
+    \n\n
+        لطفا با ارائه نظرات خود در بهبود کارایی این بازی کمک فرمایید.
+    </string>
+    <string name="record_full_report">\n\n\n\n\n\n
+        نام |
+        %1$s
+        \n\n
+        رکورد |
+        %2$d
+        سوال
+        \n\n
+        تعداد عملوندها در آغاز بازی |
+        %3$d
+        عملوند
+        \n\n
+        مرز  افزایش تعداد عملوندها |
+        %4$d
+        سوال
+        \n\n
+        عملگر های انتخابی |
+        %5$s
+        \n\n
+        مجموع تمام زمان های جایزه |
+        %6$d
+        ثانیه
+        \n\n
+ مدت زمان بازی |
+        %7$d
+        ثانیه
+        \n\n
+        دقت |
+        %8$.2f
+        %9$s
+    </string>
+    <string name="game_is_running_warning">\n\n\n\n\n\n\n\n\n\n\n
+        انجام این عمل ممکن است باعث متوقف شدن بازی شود.
+    \n
+        آیا از باز کردن این صفحه مطمئن هستید؟
+    </string>
+    <string name="answer_no">خیر</string>
+    <string name="answer_yes">بله</string>
+    <string name="dialog_app_page_button">صفحه بازی</string>
+    <string name="dialog_send_comment_button">ارسال نظر</string>
+    <string name="intent_not_found_error">!
+
+        اپ مایکت پیدا نشد!
+    \n
+        لطفا ابتدا آن را نصب کنید تا به این گزینه دسترسی پیدا کنید.
+    </string>
+
+</resources>

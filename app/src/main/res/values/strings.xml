@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MathTer</string>
+    <string name="action_settings">Settings</string>
+    <string name="check_button_text">%1$d\t\tCheck!</string>
+    <string name="next_button_text">%1$d\t\tNext</string>
+    <string name="answer_edittext_hint">Answer = ?</string>
+    <string name="timer_button_hint">CLICK HERE TO START A NEW GAME</string>
+    <string name="answer_edittext_desabled_text">Ready ?!</string>
+    <string name="numberformatexception_message">The input string in not a valid number!</string>
+    <string name="unknown_exception_message">An unknown Error occurred!</string>
+    <string name="wrong_operator">Wrong operator found in the equation</string>
+    <string name="alert_dialogbox_ok_button">Close</string>
+    <string name="number_of_operands_title">Operands In Game Start</string>
+    <string name="number_of_operands_summary">When the game starts , how many operands do you want to see ?</string>
+    <string name="number_of_operands_trigger_title">Operands Trigger</string>
+    <string name="number_of_operands_trigger_summary">After this number of questions, one new operand will be added to the equations.</string>
+    <string name="operators_title">Selected Operators</string>
+    <string name="operators_summary">Operators that will be used in the equations.</string>
+    <string name="operators_default_value" translatable="false">+ , - , *</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_records">Records</string>
+    <string name="button_save">Save</string>
+    <string name="db_upgrade_msg" translatable="false">Upgrading database from version: %1$d to %2$d</string>
+    <string name="button_discard">Discard</string>
+    <string name="font_size_dafault" translatable="false">18</string>
+    <string name="font_size_title">Font Size</string>
+    <string  name="font_size_summary">Size of the question and answer texts</string>
+    <string name="record_name_label">Your Name</string>
+    <string name="records_list_label">Records</string>
+    <string name="times_up_msg">"Time\'s Up"</string>
+    <string name="action_records">Records</string>
+    <string name="check_sorted">Sorted</string>
+    <string name="options_label">Options</string>
+    <string name="check_ascending">Ascending</string>
+    <string name="note_this">Note: To stop the game, hold the Timer Button </string>
+    <string name="record_full_report">\n\n\n\n\n\n
+            Name | %1$s\n\n
+            Record | %2$d question(s)\n\n
+            Operands in Start | %3$d operands\n\n
+            Operand Trigger | %4$d questions\n\n
+            Selected Operators | %5$s\n\n
+            All Time Prizes | %6$d sec\n\n
+            Game Duration | %7$d sec\n\n
+            Accuracy | %8$.2f %9$s
+    </string>
+    <string name="action_about">About Me</string>
+    <string name="about_me_text">\n\n\n\n\n\n\n\n\n\n\nProgrammer | thcplusplus\n\nEmail | thcplusplus@gmail.com\n\nPlease help us improving this game by sending feedbacks;</string>
+    <string name="numeric_view_text" translatable="false">%1$d</string>
+    <string name="time_prize_textview_positive_text" translatable="false">+%1$d</string>
+    <string name="game_is_running_warning">\n\n\n\n\n\n\n\n\n\n\nThis action may stop the game.\nAre you Sure to open?</string>
+    <string name="answer_yes">Yes</string>
+    <string name="answer_no">No</string>
+    <string name="dialog_send_comment_button">Send Comment</string>
+    <string name="dialog_app_page_button">Game Page</string>
+    <string name="intent_not_found_error">Myket app was not found on this device\nPlease install it to use this option!</string>
+</resources>

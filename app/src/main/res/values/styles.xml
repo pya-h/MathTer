@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="dialogTheme" parent="@style/Theme.AppCompat">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RecordsActivityStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarSize">@dimen/records_activity_actionbar_size</item>
+    </style>
+</resources>

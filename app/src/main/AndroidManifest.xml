@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mathter_icon_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mathter_icon_2"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thcplusplus.mathter.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RecordsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/RecordsActivityStyle"
+            android:icon="@drawable/ic_records_black_24dp"
+            >
+
+        </activity>
+    </application>
+
+</manifest>
