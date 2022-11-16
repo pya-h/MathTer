@@ -14,26 +14,35 @@ https://myket.ir/app/com.thcplusplus.mathter
 
 I couldnt put this on Google Play, due to restrictions regarding iranians in google.
 # Description:
-Introduction
-	* With this game you can simply improve your calculation skills
+Introduction:
 
-
-	* In this game, you have 100 secs to answer any number of questions that you can. After each question you will get a time prize depending on the equation simplicity
-
+	* In this game, you have 100 secs to answer any number of questions that you can.
+		After each question you will get a time prize depending on the equation simplicity
 
 	* All answers are just integers
 
+	* Game is completelt personalizable
 
-	* You can personalize each part of the game like : selecting desired operators ; selecting game initial condition; selecting number of equation operands in game start; selecting operands number trigger ; and so on...
+	* User Interface is a simple design but makes the game easy to play
 
+	* Note that as much as you make the game setting simpler, 
+		you will get smaller amount of time prizes;
+		harder difficulty means more prizes
 
-	* The game has very simple and fantastic User Interface
+	* Each game can be save as a new record with complete details of the game.
+		such as game duration, your accuracy , lost times , all time prizes and etc.
 
+	* This game supports both English and Persian languages. Your device language will be selected as game's default language.
 
-	* Note that how much you make game setting simpler , you will get smaller time prizes and how much you make it harder , Time prizes will also increase
+# Games Personalization:
+In the game, you can:
+	 1- Select desired operators: which operators are allowed be used in the problems 
+     2- select game initial conditions such as Initial number of operands in the problem
+     4- select operands number trigger ; and so on: after certain questions passed, the number of operands used in the problems are
+		increased by one, to increase the difficulty of the problems.
 
-
-	* The game will save each record completely with complete details such as game duration, your accuracy , lost times , all time prizes and etc.
-
-
-	* Enjoy the game in both English and Persian languages. The game will choose your device language as the default language.
+# Time Prizes:
+Each correct answer you make, the game will give you time prize; and that will be added to your remaining time;
+But this time prizes are dependant on the sum of game difficulties and the level of that question.
+More harder math problems will return More time prizes.
+The difficulty of each question is evaluated by a quite simple but very efficient approach.
